@@ -18,10 +18,18 @@ namespace ModsProcessor
                 string[] rarFiles = Directory.GetFiles(path, "*.rar");
                 foreach (string dir in directories)
                 {
-                    mods.Add(new Mod
+                    var w = new FileStructure(Path.GetFileName(dir));
+                    foreach (string file in Directory.GetFiles(dir, "*", SearchOption.AllDirectories))
                     {
-                         DirPath = dir,
-                    });
+                        //Console.WriteLine(file.Replace(path, ""));
+                        w.ParseStructure(file.Replace(path, ""));
+                    }
+                    w = w.Structure[0];
+                    Console.WriteLine(w);
+                    //mods.Add(new Mod
+                    //{
+                    //     DirPath = dir,
+                    //});
                 }
                 foreach (string zipfile in zipFiles)
                 {

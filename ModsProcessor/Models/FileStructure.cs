@@ -32,6 +32,10 @@ namespace ModsProcessor.Models
         public void ParseStructure(string structure)
         {
             var parts = structure.Split(new[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+            if(parts.Length == 1 && structure.Contains('\\'))
+            {
+                parts = structure.Split(new[] { '\\' }, StringSplitOptions.RemoveEmptyEntries);
+            }
             FileStructure current = this;
 
             foreach (var part in parts)
