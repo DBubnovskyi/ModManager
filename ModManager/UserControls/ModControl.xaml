@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="ModManager.UserControls.ModControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModManager.UserControls"
+             mc:Ignorable="d" >
+    <UserControl.Resources>
+        <Style x:Key="TBStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Wheat"/>
+            <Setter Property="Padding" Value="15 0 0 0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Border Margin="5" BorderBrush="#FF000000" BorderThickness="1" CornerRadius="8" Background="#111">
+            <Grid VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="190"/>
+                    <ColumnDefinition Width="190"/>
+                    <ColumnDefinition Width="0"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="0"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="90"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="Name"    Style="{StaticResource TBStyle}" Grid.Column="0" Text="Name"/>
+                <TextBlock x:Name="Dev"     Style="{StaticResource TBStyle}" Grid.Column="1" Text="Dev"/>
+                <TextBlock x:Name="SelfId"  Style="{StaticResource TBStyle}" Grid.Column="2" Text="SelfId"/>
+                <TextBlock x:Name="Version" Style="{StaticResource TBStyle}" Grid.Column="3" Text="Version"/>
+                <TextBlock x:Name="State"   Style="{StaticResource TBStyle}" Grid.Column="4" Text="State"/>
+                <TextBlock x:Name="Info"    Style="{StaticResource TBStyle}" Grid.Column="5" Text="Info"/>
+                <Button x:Name="InstallButton"  Grid.Column="6" Margin="5" Content="Install"/>
+                <Button x:Name="OpenButton"     Grid.Column="7" Margin="5" Content="Open" Click="OpenButton_Click"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

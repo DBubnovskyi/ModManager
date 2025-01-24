@@ -27,9 +27,10 @@ namespace ModsProcessor.Models
 
         public string Name { get; set; }
         public Type StructType { get; set; }
+        public string Data { get; set; }
         public List<FileStructure> Structure { get; set; } = new List<FileStructure>();
 
-        public void ParseStructure(string structure)
+        public FileStructure ParseStructure(string structure)
         {
             var parts = structure.Split(new[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
             if(parts.Length == 1 && structure.Contains('\\'))
@@ -58,6 +59,8 @@ namespace ModsProcessor.Models
                     current = existing;
                 }
             }
+
+            return current;
         }
 
         public override string ToString()
@@ -73,6 +76,10 @@ namespace ModsProcessor.Models
             foreach (var item in Structure)
             {
                 result += item.ToString(indentationLevel + 1);
+                if(item.Data != null)
+                {
+                    result += item.Data.ToString();
+                }
             }
 
             return result;

@@ -10,14 +10,14 @@ namespace ConsoleApp
 {
     internal class Program
     {
-        static string modPath = @"D:\Projects\Pet\ModManager\Mods";
-        static void Main(string[] args)
+        const string modPath = @"D:\Projects\Pet\ModManager\Mods";
+        static void Main()
         {
             var f = new FileProcessor();
             var m = f.LoadMods(modPath);
             foreach (var mod in m)
             {
-                Console.WriteLine(mod.DirPath);
+                Console.WriteLine($"{mod.ModInfo?.DisplayName}");
             }
             Console.ReadKey();
         }

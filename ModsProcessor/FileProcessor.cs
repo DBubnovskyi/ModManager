@@ -1,8 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.IO.Compression;
+using System.Linq;
+using System.Text;
 using ModsProcessor.Models;
+using SharpCompress.Archives.Rar;
+using SharpCompress.Archives.SevenZip;
+using SharpCompress.Archives.Zip;
+using ModsProcessor.Helpers;
 
 namespace ModsProcessor
 {
@@ -14,58 +19,25 @@ namespace ModsProcessor
             if (Directory.Exists(path))
             {
                 string[] directories = Directory.GetDirectories(path);
-                string[] zipFiles = Directory.GetFiles(path, "*.zip");
-                string[] rarFiles = Directory.GetFiles(path, "*.rar");
+                string[] archiveFiles = Directory.GetFiles(path, "*.*", SearchOption.TopDirectoryOnly)
+                    .Where(file => file.EndsWith(".zip") || file.EndsWith(".rar") || file.EndsWith(".7z"))
+                    .ToArray();
+
                 foreach (string dir in directories)
                 {
-                    var w = new FileStructure(Path.GetFileName(dir));
-                    foreach (string file in Directory.GetFiles(dir, "*", SearchOption.AllDirectories))
+                    var fs = CreateFileStructure(dir, path);
+                    mods.Add(new Mod(fs)
                     {
-                        //Console.WriteLine(file.Replace(path, ""));
-                        w.ParseStructure(file.Replace(path, ""));
-                    }
-                    w = w.Structure[0];
-                    Console.WriteLine(w);
-                    //mods.Add(new Mod
-                    //{
-                    //     DirPath = dir,
-                    //});
+                        DirPath = dir
+                    });
                 }
-                foreach (string zipfile in zipFiles)
-                {
 
-                    using (ZipArchive zip = ZipFile.Open(zipfile, ZipArchiveMode.Read))
-                    {
-                        //string[] s = new string[zip.Entries.Count];
-                        //int i = 0;
-                        var w = new FileStructure(Path.GetFileName(zipfile));
-                        foreach (ZipArchiveEntry entry in zip.Entries)
-                        {
-                            w.ParseStructure(entry.FullName);
-                            //PrintEntry(entry, "");
-                            //s[i] = entry.FullName;
-                            //if (entry.Name == "entry.lua")
-                            //{
-                            //    using (StreamReader reader = new StreamReader(entry.Open()))
-                            //    {
-                            //        string fileContent = reader.ReadToEnd();
-                            //        //Console.WriteLine(fileContent);
-                            //    }
-                            //}
-                            //i++;
-                        }
-                        Console.WriteLine(w);
-                    }
-                    //mods.Add(new Mod
-                    //{
-                    //    DirPath = zipfile,
-                    //});
-                }
-                foreach (string dir in rarFiles)
+                foreach (string archiveFile in archiveFiles)
                 {
-                    mods.Add(new Mod
+                    var fs = CreateFileStructureFromArchive(archiveFile);
+                    mods.Add(new Mod(fs)
                     {
-                        DirPath = dir,
+                        DirPath = archiveFile
                     });
                 }
             }
@@ -73,31 +45,61 @@ namespace ModsProcessor
             return mods;
         }
 
-        void ListFilesInZip(string zipPath)
+        private FileStructure CreateFileStructure(string dir, string path)
         {
-            var path = new DirectoryInfo(zipPath);
-            using (ZipArchive archive = ZipFile.OpenRead(zipPath))
+            var fs = new FileStructure(Path.GetFileName(dir));
+            foreach (string file in Directory.GetFiles(dir, "*", SearchOption.AllDirectories))
             {
-                Console.WriteLine("");
-                Console.WriteLine(path.Name);
-                foreach (ZipArchiveEntry entry in archive.Entries)
+                fs.ParseStructure(file.Replace(path, ""));
+            }
+            return fs.Structure[0];
+        }
+
+        private FileStructure CreateFileStructureFromArchive(string archiveFile)
+        {
+            using (var archive = OpenArchive(archiveFile))
+            {
+                var fs = new FileStructure(Path.GetFileName(archiveFile));
+                foreach (var entry in archive.Entries)
                 {
-                    if (!entry.FullName.EndsWith("/"))
+                    if (!entry.IsDirectory)
                     {
-                        PrintEntry(entry, "");
+                        var file = fs.ParseStructure(entry.Key);
+                        if (entry.Key.Contains("entry.lua"))
+                        {
+                            using (var memoryStream = new MemoryStream())
+                            using (var entryStream = entry.OpenEntryStream())
+                            {
+                                entryStream.CopyTo(memoryStream);
+                                memoryStream.Seek(0, SeekOrigin.Begin);
+                                using (var reader = new StreamReader(memoryStream, Encoding.UTF8))
+                                {
+                                    string content = reader.ReadToEnd();
+                                    file.Data = content;
+                                }
+                            }
+                        }
                     }
                 }
+                return fs;
             }
         }
 
-        void PrintEntry(ZipArchiveEntry entry, string indent)
+        private dynamic OpenArchive(string archiveFile)
         {
-            string[] parts = entry.FullName.Split('/');
-            for (int i = 0; i < parts.Length - 1; i++)
+            string extension = Path.GetExtension(archiveFile).ToLower();
+            switch (extension)
             {
-                Console.Write(indent + "|   ");
+                case ".zip":
+                    return ZipArchive.Open(archiveFile);
+                case ".rar":
+                    return RarArchive.Open(archiveFile);
+                case ".7z":
+                    return SevenZipArchive.Open(archiveFile);
+                default:
+                    throw new NotSupportedException("Unsupported archive format");
             }
-            Console.WriteLine(indent + "|-- " + parts[parts.Length - 1]);
         }
+
     }
 }
