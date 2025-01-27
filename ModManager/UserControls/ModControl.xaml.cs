@@ -23,6 +23,12 @@ namespace ModManager.UserControls
     public partial class ModControl : UserControl
     {
         private readonly Mod _mod;
+        private readonly FolderControl _folderControl;
+
+        public string TargetPath { 
+            get => _folderControl.TargetPath.Text;
+        }
+
         public ModControl(bool isTitle = false)
         {
             InitializeComponent();
@@ -39,9 +45,12 @@ namespace ModManager.UserControls
                 InstallButton.Visibility = Visibility.Collapsed;
             }
         }
-        public ModControl(Mod mod)
+
+        public ModControl(Mod mod, FolderControl folderControl)
         {
             InitializeComponent();
+
+            _folderControl = folderControl;
 
             _mod = mod;
             Name.Text = _mod.ModInfo.DisplayName;
@@ -55,6 +64,11 @@ namespace ModManager.UserControls
         private void OpenButton_Click(object sender, RoutedEventArgs e)
         {
             Process.Start(_mod.DirPath);
+        }
+
+        private void InstallButton_Click(object sender, RoutedEventArgs e)
+        {
+            _mod.Install(TargetPath);
         }
     }
 }

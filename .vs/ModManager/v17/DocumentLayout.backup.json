@@ -3,35 +3,24 @@
   "WorkspaceRootPath": "D:\\Projects\\Pet\\ModManager\\ModManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|d:\\projects\\pet\\modmanager\\modmanager\\modmanager\\usercontrols\\modcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\usercontrols\\modcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\models\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\models\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\usercontrols\\modscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8732603C-0B60-48F9-9763-4543AE812760}|ConsoleApp\\ConsoleApp.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8732603C-0B60-48F9-9763-4543AE812760}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\d.bubnovskyi\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\usercontrols\\modscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\models\\filestructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\models\\filestructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\helpers\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\helpers\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\models\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\models\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\usercontrols\\foldercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -42,35 +31,35 @@
       "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\foldercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|d:\\projects\\pet\\modmanager\\modmanager\\modmanager\\usercontrols\\modcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\usercontrols\\modcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\usercontrols\\modscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\usercontrols\\modscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\usercontrols\\modscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C70B6E09-5C94-4B21-9F73-7EF20D27ED68}|ModManager\\ModManager.csproj|solutionrelative:modmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8732603C-0B60-48F9-9763-4543AE812760}|ConsoleApp\\ConsoleApp.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8732603C-0B60-48F9-9763-4543AE812760}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\d.bubnovskyi\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ModManager||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\models\\filestructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\models\\filestructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\obj\\Debug\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModManager\\obj\\Debug\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\obj\\Debug\\UserControls\\FolderControl.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModManager\\obj\\Debug\\UserControls\\FolderControl.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|D:\\Projects\\Pet\\ModManager\\ModManager\\modsprocessor\\models\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE87295-F55B-463E-96DD-9499494E8162}|ModsProcessor\\ModsProcessor.csproj|solutionrelative:modsprocessor\\models\\modinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,20 +79,21 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "FileProcessor.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\FileProcessor.cs",
               "RelativeDocumentMoniker": "ModsProcessor\\FileProcessor.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\FileProcessor.cs",
               "RelativeToolTip": "ModsProcessor\\FileProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAjwEYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T11:56:44.467Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -123,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "WpfXamlLoader.cs",
               "DocumentMoniker": "C:\\Users\\d.bubnovskyi\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
               "ToolTip": "C:\\Users\\d.bubnovskyi\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs [Read Only]",
@@ -134,32 +124,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ModControl.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModControl.xaml.cs",
               "RelativeDocumentMoniker": "ModManager\\UserControls\\ModControl.xaml.cs",
-              "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModControl.xaml.cs*",
-              "RelativeToolTip": "ModManager\\UserControls\\ModControl.xaml.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAewDgAAAAmAAAAAAAAAA==",
+              "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModControl.xaml.cs",
+              "RelativeToolTip": "ModManager\\UserControls\\ModControl.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAjwEYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T09:44:56.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ModControl.xaml",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModControl.xaml",
               "RelativeDocumentMoniker": "ModManager\\UserControls\\ModControl.xaml",
-              "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModControl.xaml*",
-              "RelativeToolTip": "ModManager\\UserControls\\ModControl.xaml*",
+              "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModControl.xaml",
+              "RelativeToolTip": "ModManager\\UserControls\\ModControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-24T09:34:37.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ModsControl.xaml",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModsControl.xaml",
               "RelativeDocumentMoniker": "ModManager\\UserControls\\ModsControl.xaml",
@@ -171,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "FolderControl.xaml",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\FolderControl.xaml",
               "RelativeDocumentMoniker": "ModManager\\UserControls\\FolderControl.xaml",
@@ -183,50 +173,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FolderControl.g.i.cs",
-              "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\obj\\Debug\\UserControls\\FolderControl.g.i.cs",
-              "RelativeDocumentMoniker": "ModManager\\obj\\Debug\\UserControls\\FolderControl.g.i.cs",
-              "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\obj\\Debug\\UserControls\\FolderControl.g.i.cs",
-              "RelativeToolTip": "ModManager\\obj\\Debug\\UserControls\\FolderControl.g.i.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T09:01:17.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "FolderControl.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\FolderControl.xaml.cs",
               "RelativeDocumentMoniker": "ModManager\\UserControls\\FolderControl.xaml.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\FolderControl.xaml.cs",
               "RelativeToolTip": "ModManager\\UserControls\\FolderControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T09:00:54.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainWindow.g.i.cs",
-              "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\obj\\Debug\\MainWindow.g.i.cs",
-              "RelativeDocumentMoniker": "ModManager\\obj\\Debug\\MainWindow.g.i.cs",
-              "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\obj\\Debug\\MainWindow.g.i.cs",
-              "RelativeToolTip": "ModManager\\obj\\Debug\\MainWindow.g.i.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwCAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:59:16.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ModManager",
-              "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\ModManager.csproj",
-              "RelativeDocumentMoniker": "ModManager\\ModManager.csproj",
-              "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\ModManager.csproj",
-              "RelativeToolTip": "ModManager\\ModManager.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-24T09:00:19.737Z"
+              "WhenOpened": "2025-01-24T09:00:54.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -236,9 +192,10 @@
               "RelativeDocumentMoniker": "ModManager\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\MainWindow.xaml.cs",
               "RelativeToolTip": "ModManager\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:58:52.086Z"
+              "WhenOpened": "2025-01-24T08:58:52.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -254,45 +211,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ModsControl.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModsControl.xaml.cs",
               "RelativeDocumentMoniker": "ModManager\\UserControls\\ModsControl.xaml.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModManager\\UserControls\\ModsControl.xaml.cs",
               "RelativeToolTip": "ModManager\\UserControls\\ModsControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvx4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T08:57:38.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "StringExtensions.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\Helpers\\StringExtensions.cs",
               "RelativeDocumentMoniker": "ModsProcessor\\Helpers\\StringExtensions.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\Helpers\\StringExtensions.cs",
               "RelativeToolTip": "ModsProcessor\\Helpers\\StringExtensions.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAnwBcAAACAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T13:13:04.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "FileStructure.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\Models\\FileStructure.cs",
               "RelativeDocumentMoniker": "ModsProcessor\\Models\\FileStructure.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\Models\\FileStructure.cs",
               "RelativeToolTip": "ModsProcessor\\Models\\FileStructure.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwD4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAawCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:24:26.944Z"
+              "WhenOpened": "2025-01-23T11:24:26.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "ModInfo.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\Models\\ModInfo.cs",
               "RelativeDocumentMoniker": "ModsProcessor\\Models\\ModInfo.cs",
@@ -300,33 +258,33 @@
               "RelativeToolTip": "ModsProcessor\\Models\\ModInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T13:03:50.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T13:03:50.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Mod.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\Models\\Mod.cs",
               "RelativeDocumentMoniker": "ModsProcessor\\Models\\Mod.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ModsProcessor\\Models\\Mod.cs",
               "RelativeToolTip": "ModsProcessor\\Models\\Mod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwCgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T12:52:11.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Pet\\ModManager\\ModManager\\ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
               "ToolTip": "D:\\Projects\\Pet\\ModManager\\ModManager\\ConsoleApp\\Program.cs",
               "RelativeToolTip": "ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T10:11:40.918Z"
+              "WhenOpened": "2025-01-20T10:11:40.918Z",
+              "EditorCaption": ""
             }
           ]
         },

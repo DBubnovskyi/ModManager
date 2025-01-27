@@ -28,7 +28,9 @@ namespace ModsProcessor.Models
         public string Name { get; set; }
         public Type StructType { get; set; }
         public string Data { get; set; }
+        public string Path { get; set; }
         public List<FileStructure> Structure { get; set; } = new List<FileStructure>();
+        public List<string> Files { get; set; } = new List<string>();
 
         public FileStructure ParseStructure(string structure)
         {
@@ -47,9 +49,18 @@ namespace ModsProcessor.Models
                 {
                     var newItem = new FileStructure
                     {
-                        Name = part,
-                        StructType = part.Contains('.') ? Type.File : Type.Folder
+                        Name = part
                     };
+
+                    if (part.Contains('.'))
+                    {
+                        newItem.StructType = Type.File;
+                        newItem.Path = structure;
+                    }
+                    else
+                    {
+                        newItem.StructType = Type.Folder;
+                    }
 
                     current.Structure.Add(newItem);
                     current = newItem;

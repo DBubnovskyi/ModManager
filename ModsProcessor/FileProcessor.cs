@@ -25,7 +25,7 @@ namespace ModsProcessor
 
                 foreach (string dir in directories)
                 {
-                    var fs = CreateFileStructure(dir, path);
+                    var fs = CreateFileStructure(dir);
                     mods.Add(new Mod(fs)
                     {
                         DirPath = dir
@@ -45,13 +45,17 @@ namespace ModsProcessor
             return mods;
         }
 
-        private FileStructure CreateFileStructure(string dir, string path)
+        private FileStructure CreateFileStructure(string dir)
         {
-            var fs = new FileStructure(Path.GetFileName(dir));
+            string dirName = Path.GetFileName(dir);
+            var fs = new FileStructure(dirName);
             foreach (string file in Directory.GetFiles(dir, "*", SearchOption.AllDirectories))
             {
-                fs.ParseStructure(file.Replace(path, ""));
+                string relativePath = file.Replace(dir, string.Empty);
+                fs.Files.Add(relativePath);
+                fs.ParseStructure(relativePath);
             }
+            fs.Structure[0].Files = fs.Files;
             return fs.Structure[0];
         }
 
@@ -64,6 +68,7 @@ namespace ModsProcessor
                 {
                     if (!entry.IsDirectory)
                     {
+                        fs.Files.Add(entry.Key);
                         var file = fs.ParseStructure(entry.Key);
                         if (entry.Key.Contains("entry.lua"))
                         {

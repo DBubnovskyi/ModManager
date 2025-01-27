@@ -13,7 +13,8 @@ namespace ModManager.UserControls
         public FolderControl()
         {
             InitializeComponent();
-            ModPath.Text = @"D:\Projects\Pet\ModManager\Mods";
+            ModPath.Text    = @"D:\Projects\Pet\ModManager\Mods";
+            TargetPath.Text = @"D:\Projects\Pet\ModManager\Target";
         }
 
         //#fbb840

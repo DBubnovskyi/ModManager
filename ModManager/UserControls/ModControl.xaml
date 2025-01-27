@@ -31,7 +31,7 @@
                 <TextBlock x:Name="Version" Style="{StaticResource TBStyle}" Grid.Column="3" Text="Version"/>
                 <TextBlock x:Name="State"   Style="{StaticResource TBStyle}" Grid.Column="4" Text="State"/>
                 <TextBlock x:Name="Info"    Style="{StaticResource TBStyle}" Grid.Column="5" Text="Info"/>
-                <Button x:Name="InstallButton"  Grid.Column="6" Margin="5" Content="Install"/>
+                <Button x:Name="InstallButton"  Grid.Column="6" Margin="5" Content="Install" Click="InstallButton_Click"/>
                 <Button x:Name="OpenButton"     Grid.Column="7" Margin="5" Content="Open" Click="OpenButton_Click"/>
             </Grid>
         </Border>

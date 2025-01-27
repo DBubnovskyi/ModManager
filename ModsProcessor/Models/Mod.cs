@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace ModsProcessor.Models
         public Mod(FileStructure fs)
         {
             ModInfo = new ModInfo();
+            FileStructure = fs;
             var entryLua = FindEntryLua(fs);
             if (entryLua != null)
             {
@@ -30,7 +32,28 @@ namespace ModsProcessor.Models
         public string DirPath { get; set; }
         public string ReadMe { get; set; }
         public FileStructure FileStructure { get; set; }
-        public bool IsInstalled { get; set; }
+        public bool IsInstalled(string targetFolder)
+        {
+            foreach(var file in FileStructure.Files)
+            {
+                var instaledFilePath = targetFolder + file;
+                if (!File.Exists(instaledFilePath))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public bool Install(string targetFolder)
+        {
+            return DirPath.CopyFolderTo(targetFolder);
+        }
+
+        public bool Uninstall(string targetFolder)
+        {
+            return false;
+        }
 
         public ModInfo ParseEnteryLua(string enteryLua)
         {
@@ -100,7 +123,6 @@ namespace ModsProcessor.Models
                 return string.Empty;
 
             return input.Substring(firstQuoteIndex + 1, secondQuoteIndex - firstQuoteIndex - 1);
-
         }
     }
 }

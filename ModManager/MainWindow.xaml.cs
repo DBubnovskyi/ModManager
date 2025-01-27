@@ -1,4 +1,5 @@
-﻿using ModsProcessor;
+﻿using ModManager.UserControls;
+using ModsProcessor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace ModManager
 
             var f = new FileProcessor();
             var m = f.LoadMods(Folder.ModPath.Text);
-            Mods.AddMods(m);
+            Mods.AddMods(m, Folder);
         }
     }
 }
